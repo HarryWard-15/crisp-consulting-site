@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline;
+    padding: 1rem;
+}
+footer {
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerleft {
+    width:30%;
+    margin-left: 15%;
+}
+.footermiddle {
+    width: 20%;
+}
+.footerright {
+    width: 20%;
+    margin-right: 15%;
+}
+.footbottom {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+p span {
+    color: orange;
+}
